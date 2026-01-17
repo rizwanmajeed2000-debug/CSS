@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        @keyframes example{
+            0% {background-color: red;}
+            25% {background-color: blue;}
+            75% {background-color: green;}
+            100% {background-color: purple;}
+        }
+        
+        /*The element to apply the animation to*/
+        div{
+            width: 750px;
+            height: 750px;
+            background-color: azure;
+            animation: example 5s infinite;
+        }
+    </style>
+ </head>
+ <body>
+    <div>Hi.</div>
+ </body>
+ </html>
